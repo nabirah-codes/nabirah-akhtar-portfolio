@@ -68,7 +68,7 @@ export function Education() {
 
 function TimelineDot({ children }: { children: React.ReactNode }) {
   return (
-    <span className="absolute -left-[3.05rem] top-7 hidden h-9 w-9 items-center justify-center rounded-full border-4 border-card bg-primary text-primary-foreground shadow-glow sm:flex">
+    <span className="absolute -left-[4.15rem] top-7 hidden h-9 w-9 items-center justify-center rounded-full border-4 border-card bg-primary text-primary-foreground shadow-glow sm:flex">
       {children}
     </span>
   );
