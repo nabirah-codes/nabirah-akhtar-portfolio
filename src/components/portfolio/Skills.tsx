@@ -17,7 +17,7 @@ export function Skills() {
 
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {SKILL_GROUPS.map((group, gi) => {
-            const Icon = ICONS[gi];
+            const Icon = ICONS[gi] ?? Code2;
             return (
               <Reveal key={group.title} delay={gi * 90}>
                 <article className="card-surface hover-lift group flex h-full flex-col p-7">
