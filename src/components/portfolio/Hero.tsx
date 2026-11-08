@@ -70,7 +70,7 @@ export function Hero() {
         </div>
 
         <div className="order-1 flex justify-center lg:order-2">
-          <div className="relative aspect-square w-64 sm:w-80 lg:w-[23rem]">
+          <div className="relative aspect-square w-72 sm:w-[22rem] lg:w-[25rem]">
             <div className="glow-pulse bg-gradient-accent absolute -inset-6 rounded-full opacity-60 blur-3xl" />
             <div className="profile-ring absolute -inset-[5px] rounded-full" />
             <div className="absolute inset-0 rounded-full bg-background p-2">
@@ -78,9 +78,9 @@ export function Hero() {
                 src={PROFILE.photo}
                 alt="Portrait of Nabirah Akhtar"
                 width={600}
-                height={600}
+                height={800}
                 fetchPriority="high"
-                className="h-full w-full rounded-full object-cover"
+                className="h-full w-full rounded-full object-cover object-[50%_0%]"
               />
             </div>
 
